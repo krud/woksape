@@ -13,6 +13,11 @@
 		A2A24D62242987C6000ABF22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A24D61242987C6000ABF22 /* Assets.xcassets */; };
 		A2A24D65242987C6000ABF22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A24D64242987C6000ABF22 /* Preview Assets.xcassets */; };
 		A2A24D68242987C6000ABF22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A24D66242987C6000ABF22 /* LaunchScreen.storyboard */; };
+		A2A24D722429895C000ABF22 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A24D712429895C000ABF22 /* LandingView.swift */; };
+		A2A24D742429897E000ABF22 /* TetrisGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A24D732429897E000ABF22 /* TetrisGameView.swift */; };
+		A2A24D7624298989000ABF22 /* MazeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A24D7524298989000ABF22 /* MazeGameView.swift */; };
+		A2A24D782429899B000ABF22 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A24D772429899B000ABF22 /* Color.swift */; };
+		A2A24D7A24298FC5000ABF22 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A24D7924298FC5000ABF22 /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		A2A24D64242987C6000ABF22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2A24D67242987C6000ABF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A24D69242987C6000ABF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A24D712429895C000ABF22 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
+		A2A24D732429897E000ABF22 /* TetrisGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetrisGameView.swift; sourceTree = "<group>"; };
+		A2A24D7524298989000ABF22 /* MazeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeGameView.swift; sourceTree = "<group>"; };
+		A2A24D772429899B000ABF22 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A2A24D7924298FC5000ABF22 /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,8 @@
 				A2A24D5B242987C4000ABF22 /* AppDelegate.swift */,
 				A2A24D5D242987C4000ABF22 /* SceneDelegate.swift */,
 				A2A24D5F242987C4000ABF22 /* ContentView.swift */,
+				A2A24D702429893C000ABF22 /* Extensions */,
+				A2A24D6F24298927000ABF22 /* Views */,
 				A2A24D61242987C6000ABF22 /* Assets.xcassets */,
 				A2A24D66242987C6000ABF22 /* LaunchScreen.storyboard */,
 				A2A24D69242987C6000ABF22 /* Info.plist */,
@@ -73,6 +85,25 @@
 				A2A24D64242987C6000ABF22 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2A24D6F24298927000ABF22 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2A24D712429895C000ABF22 /* LandingView.swift */,
+				A2A24D732429897E000ABF22 /* TetrisGameView.swift */,
+				A2A24D7524298989000ABF22 /* MazeGameView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2A24D702429893C000ABF22 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2A24D772429899B000ABF22 /* Color.swift */,
+				A2A24D7924298FC5000ABF22 /* CustomModifiers.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,7 +177,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A24D722429895C000ABF22 /* LandingView.swift in Sources */,
+				A2A24D7624298989000ABF22 /* MazeGameView.swift in Sources */,
+				A2A24D782429899B000ABF22 /* Color.swift in Sources */,
+				A2A24D742429897E000ABF22 /* TetrisGameView.swift in Sources */,
 				A2A24D5C242987C4000ABF22 /* AppDelegate.swift in Sources */,
+				A2A24D7A24298FC5000ABF22 /* CustomModifiers.swift in Sources */,
 				A2A24D5E242987C4000ABF22 /* SceneDelegate.swift in Sources */,
 				A2A24D60242987C4000ABF22 /* ContentView.swift in Sources */,
 			);
